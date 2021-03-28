@@ -33,6 +33,14 @@ h1, h2, h3, h4, h5 {
     background-color: #a2d246;
 }
 
+.container2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px;
+    background-color: #a2d246;
+}
+
 .names{
     display: inline-block;
     width: 100%;
@@ -66,11 +74,88 @@ h1, h2, h3, h4, h5 {
 }
 
 .button{
-
-    font-size: 20px;
+    font-size: 16px;
+    width: 40%;
     align-items: center;
     margin-top: 20px;
+    padding: 5px 15px;
     margin-bottom: 20px;
-    background-color: #eba;
-    border-radius: 3px;
+    margin-right: 10px;
+    outline: none;
+    border-width: 0;
+    border-radius: 20px;
+    background: #d87d56;
+    border-bottom: 4px solid #aa5500;
+    color: white;
+    line-height: 25px;
+}
+
+.button:hover{
+    color: #FFFFFF;
+    background-color: #c65d09;
+}
+
+.decor_order{
+    margin-bottom: 0;
+}
+
+.form-inner h1{
+    font-size: 40px;
+    color: #aa5500;
+    margin-top: 10px;
+}
+
+.form-inner {
+    padding: 20px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text, .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+    background: #E9EFF6;
+    line-height: 35px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.form-inner textarea {
+    padding: 5px 15px;
+    overflow: hidden;
+}
+
+.form-inner input[type="submit"] {
+    margin-top: 20px;
+    background: #d87d56;
+    border-bottom: 4px solid #aa5500;
+    color: white;
+    font-size: 14px;
+    line-height: 40px;
+}
+.form-inner textarea {
+    resize: none;
+}
+
+.inf{
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.form-inner form input[type="submit"]:hover{
+    color: #FFFFFF;
+    background-color: #c65d09;
+}
+
+.click{
+    color: black;
+    text-decoration: none;
+}
+
+.click:hover{
+    color: white;
 }
